@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E353E1C32BF92CA700A41C09 /* trustpix_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353E1C22BF92CA700A41C09 /* trustpix_appApp.swift */; };
+		E353E1C52BF92CA700A41C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353E1C42BF92CA700A41C09 /* ContentView.swift */; };
+		E353E1C72BF92CA900A41C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E353E1C62BF92CA900A41C09 /* Assets.xcassets */; };
+		E353E1CA2BF92CA900A41C09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E353E1C92BF92CA900A41C09 /* Preview Assets.xcassets */; };
+		E353E1D42BF92CAA00A41C09 /* trustpix_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353E1D32BF92CAA00A41C09 /* trustpix_appTests.swift */; };
+		E353E1DE2BF92CAA00A41C09 /* trustpix_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353E1DD2BF92CAA00A41C09 /* trustpix_appUITests.swift */; };
+		E353E1E02BF92CAA00A41C09 /* trustpix_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353E1DF2BF92CAA00A41C09 /* trustpix_appUITestsLaunchTests.swift */; };
+		E3FE9D362BFA0A1C00DB3F32 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = E3FE9D352BFA0A1C00DB3F32 /* Auth0 */; };
+		E3FE9D382BFA0B0700DB3F32 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3FE9D372BFA0B0700DB3F32 /* Auth0.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E353E1D02BF92CAA00A41C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E353E1B72BF92CA700A41C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E353E1BE2BF92CA700A41C09;
+			remoteInfo = "trustpix-app";
+		};
+		E353E1DA2BF92CAA00A41C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E353E1B72BF92CA700A41C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E353E1BE2BF92CA700A41C09;
+			remoteInfo = "trustpix-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E353E1BF2BF92CA700A41C09 /* trustpix-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trustpix-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E353E1C22BF92CA700A41C09 /* trustpix_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trustpix_appApp.swift; sourceTree = "<group>"; };
+		E353E1C42BF92CA700A41C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E353E1C62BF92CA900A41C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E353E1C92BF92CA900A41C09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E353E1CF2BF92CAA00A41C09 /* trustpix-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trustpix-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E353E1D32BF92CAA00A41C09 /* trustpix_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trustpix_appTests.swift; sourceTree = "<group>"; };
+		E353E1D92BF92CAA00A41C09 /* trustpix-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trustpix-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E353E1DD2BF92CAA00A41C09 /* trustpix_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trustpix_appUITests.swift; sourceTree = "<group>"; };
+		E353E1DF2BF92CAA00A41C09 /* trustpix_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trustpix_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3E7CF6D2BFB8B6900F9C725 /* trustpix-appDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "trustpix-appDebug.entitlements"; sourceTree = "<group>"; };
+		E3FE9D372BFA0B0700DB3F32 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Auth0.plist; sourceTree = "<group>"; };
+		E3FE9D392BFA10D400DB3F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E3FE9D3A2BFA124000DB3F32 /* trustpix-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "trustpix-app.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E353E1BC2BF92CA700A41C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FE9D362BFA0A1C00DB3F32 /* Auth0 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E353E1CC2BF92CAA00A41C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E353E1D62BF92CAA00A41C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E353E1B62BF92CA700A41C09 = {
+			isa = PBXGroup;
+			children = (
+				E353E1C12BF92CA700A41C09 /* trustpix-app */,
+				E353E1D22BF92CAA00A41C09 /* trustpix-appTests */,
+				E353E1DC2BF92CAA00A41C09 /* trustpix-appUITests */,
+				E353E1C02BF92CA700A41C09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E353E1C02BF92CA700A41C09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E353E1BF2BF92CA700A41C09 /* trustpix-app.app */,
+				E353E1CF2BF92CAA00A41C09 /* trustpix-appTests.xctest */,
+				E353E1D92BF92CAA00A41C09 /* trustpix-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E353E1C12BF92CA700A41C09 /* trustpix-app */ = {
+			isa = PBXGroup;
+			children = (
+				E3E7CF6D2BFB8B6900F9C725 /* trustpix-appDebug.entitlements */,
+				E3FE9D3A2BFA124000DB3F32 /* trustpix-app.entitlements */,
+				E3FE9D392BFA10D400DB3F32 /* Info.plist */,
+				E3FE9D372BFA0B0700DB3F32 /* Auth0.plist */,
+				E353E1C22BF92CA700A41C09 /* trustpix_appApp.swift */,
+				E353E1C42BF92CA700A41C09 /* ContentView.swift */,
+				E353E1C62BF92CA900A41C09 /* Assets.xcassets */,
+				E353E1C82BF92CA900A41C09 /* Preview Content */,
+			);
+			path = "trustpix-app";
+			sourceTree = "<group>";
+		};
+		E353E1C82BF92CA900A41C09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E353E1C92BF92CA900A41C09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E353E1D22BF92CAA00A41C09 /* trustpix-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				E353E1D32BF92CAA00A41C09 /* trustpix_appTests.swift */,
+			);
+			path = "trustpix-appTests";
+			sourceTree = "<group>";
+		};
+		E353E1DC2BF92CAA00A41C09 /* trustpix-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E353E1DD2BF92CAA00A41C09 /* trustpix_appUITests.swift */,
+				E353E1DF2BF92CAA00A41C09 /* trustpix_appUITestsLaunchTests.swift */,
+			);
+			path = "trustpix-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E353E1BE2BF92CA700A41C09 /* trustpix-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E353E1E32BF92CAA00A41C09 /* Build configuration list for PBXNativeTarget "trustpix-app" */;
+			buildPhases = (
+				E353E1BB2BF92CA700A41C09 /* Sources */,
+				E353E1BC2BF92CA700A41C09 /* Frameworks */,
+				E353E1BD2BF92CA700A41C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trustpix-app";
+			packageProductDependencies = (
+				E3FE9D352BFA0A1C00DB3F32 /* Auth0 */,
+			);
+			productName = "trustpix-app";
+			productReference = E353E1BF2BF92CA700A41C09 /* trustpix-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E353E1CE2BF92CAA00A41C09 /* trustpix-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E353E1E62BF92CAA00A41C09 /* Build configuration list for PBXNativeTarget "trustpix-appTests" */;
+			buildPhases = (
+				E353E1CB2BF92CAA00A41C09 /* Sources */,
+				E353E1CC2BF92CAA00A41C09 /* Frameworks */,
+				E353E1CD2BF92CAA00A41C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E353E1D12BF92CAA00A41C09 /* PBXTargetDependency */,
+			);
+			name = "trustpix-appTests";
+			productName = "trustpix-appTests";
+			productReference = E353E1CF2BF92CAA00A41C09 /* trustpix-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E353E1D82BF92CAA00A41C09 /* trustpix-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E353E1E92BF92CAA00A41C09 /* Build configuration list for PBXNativeTarget "trustpix-appUITests" */;
+			buildPhases = (
+				E353E1D52BF92CAA00A41C09 /* Sources */,
+				E353E1D62BF92CAA00A41C09 /* Frameworks */,
+				E353E1D72BF92CAA00A41C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E353E1DB2BF92CAA00A41C09 /* PBXTargetDependency */,
+			);
+			name = "trustpix-appUITests";
+			productName = "trustpix-appUITests";
+			productReference = E353E1D92BF92CAA00A41C09 /* trustpix-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E353E1B72BF92CA700A41C09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E353E1BE2BF92CA700A41C09 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E353E1CE2BF92CAA00A41C09 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E353E1BE2BF92CA700A41C09;
+					};
+					E353E1D82BF92CAA00A41C09 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E353E1BE2BF92CA700A41C09;
+					};
+				};
+			};
+			buildConfigurationList = E353E1BA2BF92CA700A41C09 /* Build configuration list for PBXProject "trustpix-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E353E1B62BF92CA700A41C09;
+			packageReferences = (
+				E3FE9D342BFA0A1C00DB3F32 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
+			productRefGroup = E353E1C02BF92CA700A41C09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E353E1BE2BF92CA700A41C09 /* trustpix-app */,
+				E353E1CE2BF92CAA00A41C09 /* trustpix-appTests */,
+				E353E1D82BF92CAA00A41C09 /* trustpix-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E353E1BD2BF92CA700A41C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E353E1CA2BF92CA900A41C09 /* Preview Assets.xcassets in Resources */,
+				E3FE9D382BFA0B0700DB3F32 /* Auth0.plist in Resources */,
+				E353E1C72BF92CA900A41C09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E353E1CD2BF92CAA00A41C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E353E1D72BF92CAA00A41C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E353E1BB2BF92CA700A41C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E353E1C52BF92CA700A41C09 /* ContentView.swift in Sources */,
+				E353E1C32BF92CA700A41C09 /* trustpix_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E353E1CB2BF92CAA00A41C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E353E1D42BF92CAA00A41C09 /* trustpix_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E353E1D52BF92CAA00A41C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E353E1DE2BF92CAA00A41C09 /* trustpix_appUITests.swift in Sources */,
+				E353E1E02BF92CAA00A41C09 /* trustpix_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E353E1D12BF92CAA00A41C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E353E1BE2BF92CA700A41C09 /* trustpix-app */;
+			targetProxy = E353E1D02BF92CAA00A41C09 /* PBXContainerItemProxy */;
+		};
+		E353E1DB2BF92CAA00A41C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E353E1BE2BF92CA700A41C09 /* trustpix-app */;
+			targetProxy = E353E1DA2BF92CAA00A41C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E353E1E12BF92CAA00A41C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E353E1E22BF92CAA00A41C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E353E1E42BF92CAA00A41C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "trustpix-app/trustpix-appDebug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trustpix-app/Preview Content\"";
+				DEVELOPMENT_TEAM = QTVMDTN87B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trustpix-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trustpix.trustpix-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E353E1E52BF92CAA00A41C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "trustpix-app/trustpix-app.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trustpix-app/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trustpix-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trustpix.trustpix-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E353E1E72BF92CAA00A41C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTVMDTN87B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trustpix.trustpix-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trustpix-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trustpix-app";
+			};
+			name = Debug;
+		};
+		E353E1E82BF92CAA00A41C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTVMDTN87B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trustpix.trustpix-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trustpix-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trustpix-app";
+			};
+			name = Release;
+		};
+		E353E1EA2BF92CAA00A41C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTVMDTN87B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trustpix.trustpix-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "trustpix-app";
+			};
+			name = Debug;
+		};
+		E353E1EB2BF92CAA00A41C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTVMDTN87B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trustpix.trustpix-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "trustpix-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E353E1BA2BF92CA700A41C09 /* Build configuration list for PBXProject "trustpix-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E353E1E12BF92CAA00A41C09 /* Debug */,
+				E353E1E22BF92CAA00A41C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E353E1E32BF92CAA00A41C09 /* Build configuration list for PBXNativeTarget "trustpix-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E353E1E42BF92CAA00A41C09 /* Debug */,
+				E353E1E52BF92CAA00A41C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E353E1E62BF92CAA00A41C09 /* Build configuration list for PBXNativeTarget "trustpix-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E353E1E72BF92CAA00A41C09 /* Debug */,
+				E353E1E82BF92CAA00A41C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E353E1E92BF92CAA00A41C09 /* Build configuration list for PBXNativeTarget "trustpix-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E353E1EA2BF92CAA00A41C09 /* Debug */,
+				E353E1EB2BF92CAA00A41C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3FE9D342BFA0A1C00DB3F32 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3FE9D352BFA0A1C00DB3F32 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3FE9D342BFA0A1C00DB3F32 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E353E1B72BF92CA700A41C09 /* Project object */;
+}
